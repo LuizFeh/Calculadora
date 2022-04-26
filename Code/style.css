@@ -24,13 +24,13 @@ body {
   font-size: 2rem;
   border: none;
   outline: none;
-  background-color: #111;
-  color: #eee;
+  background-color: #ffffff;
+  color: #363447;
 }
 
 .grid-container > button:hover {
-  background-color: #eee;
-  color: #111;
+  background-color: #363447;
+  color: #ffffff;
 }
 
 .grid-container > .operator {
@@ -42,8 +42,8 @@ body {
 }
 
 .grid-container > .output {
-  grid-column: 1 / -1;
-  background: #222;
+  grid-column: 1/-1;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -51,14 +51,15 @@ body {
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
+  box-shadow: 32px 48px 80px 0px rgba(119, 120, 120, 0.16);
 }
 
 .grid-container > .output > .previous-operand {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(#363447, 0.75);
   font-size: 1.5rem;
 }
 
 .grid-container > .output > .current-operand {
-  color: white;
+  color: #363447;
   font-size: 2.5rem;
 }
